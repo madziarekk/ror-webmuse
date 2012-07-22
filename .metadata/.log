@@ -181,3 +181,19 @@ G:/______ProgramFiles______/Aptana32/configuration/org.eclipse.osgi/bundles/83/1
 	from G:/______ProgramFiles______/Aptana32/configuration/org.eclipse.osgi/bundles/83/1/.cp/ruby/core_stubber.rb:152:in `each'
 	from G:/______ProgramFiles______/Aptana32/configuration/org.eclipse.osgi/bundles/83/1/.cp/ruby/core_stubber.rb:152:in `<main>'
 
+
+!ENTRY com.aptana.projects 2 0 2012-07-22 21:39:37.576
+!MESSAGE Internal error: fatal: remote error: 
+  Repository not found.
+!STACK 1
+org.eclipse.core.runtime.CoreException: fatal: remote error: 
+  Repository not found.
+	at com.aptana.projects.internal.wizards.AbstractNewProjectWizard.doCloneFromGit(AbstractNewProjectWizard.java:845)
+	at com.aptana.ruby.ui.wizards.NewRubyProjectWizard.cloneFromGit(NewRubyProjectWizard.java:145)
+	at com.aptana.projects.internal.wizards.AbstractNewProjectWizard.createNewProject(AbstractNewProjectWizard.java:424)
+	at org.radrails.rails.internal.ui.NewRailsProjectWizard.createNewProject(NewRailsProjectWizard.java:116)
+	at com.aptana.projects.internal.wizards.AbstractNewProjectWizard$1.run(AbstractNewProjectWizard.java:250)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.aptana.core 4 0 2012-07-22 21:39:37.577
+!MESSAGE fatal: remote error: 
+  Repository not found.
