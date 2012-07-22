@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servers>
+<server host="0.0.0.0" port="3000" project="G:/Aptana_workspace/ror-webmuse" type="org.radrails.rails.railsServer">
+<name>ror-webmuse</name>
+</server>
+<server host="0.0.0.0" port="3000" project="G:/Aptana_workspace/ror2" type="org.radrails.rails.railsServer">
+<name>ror2</name>
+</server>
+</servers>
