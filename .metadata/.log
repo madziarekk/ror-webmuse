@@ -1,0 +1,183 @@
+!SESSION 2012-07-22 19:40:38.296 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.aptana.ruby.core 4 0 2012-07-22 19:43:07.937
+!MESSAGE (eval):1: Use RbConfig instead of obsolete and deprecated Config.
+(eval):1: warning: variable $= is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+G:/______ProgramFiles______/Aptana32/configuration/org.eclipse.osgi/bundles/83/1/.cp/ruby/core_stubber.rb:180:in `eval': Permission denied - G:\Aptana_workspace\.metadata\.plugins\com.aptana.ruby.core\-941821722\4 (Errno::EACCES)
+	from G:/______ProgramFiles______/Aptana32/configuration/org.eclipse.osgi/bundles/83/1/.cp/ruby/core_stubber.rb:180:in `eval'
+	from G:/______ProgramFiles______/Aptana32/configuration/org.eclipse.osgi/bundles/83/1/.cp/ruby/core_stubber.rb:180:in `block (3 levels) in <main>'
+	from G:/______ProgramFiles______/Aptana32/configuration/org.eclipse.osgi/bundles/83/1/.cp/ruby/core_stubber.rb:179:in `each'
+	from G:/______ProgramFiles______/Aptana32/configuration/org.eclipse.osgi/bundles/83/1/.cp/ruby/core_stubber.rb:179:in `block (2 levels) in <main>'
+	from G:/______ProgramFiles______/Aptana32/configuration/org.eclipse.osgi/bundles/83/1/.cp/ruby/core_stubber.rb:178:in `open'
+	from G:/______ProgramFiles______/Aptana32/configuration/org.eclipse.osgi/bundles/83/1/.cp/ruby/core_stubber.rb:178:in `block in <main>'
+	from G:/______ProgramFiles______/Aptana32/configuration/org.eclipse.osgi/bundles/83/1/.cp/ruby/core_stubber.rb:152:in `each'
+	from G:/______ProgramFiles______/Aptana32/configuration/org.eclipse.osgi/bundles/83/1/.cp/ruby/core_stubber.rb:152:in `<main>'
+
+
+!ENTRY com.aptana.ruby.core 4 0 2012-07-22 19:43:15.756
+!MESSAGE (Build 3.2.0.201206251729) [ERROR]  Not supported yet.
+!STACK 0
+java.lang.UnsupportedOperationException: Not supported yet.
+	at org.jrubyparser.ast.LambdaNode.accept(LambdaNode.java:58)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitHashNode(InOrderVisitor.java:414)
+	at org.jrubyparser.ast.HashNode.accept(HashNode.java:57)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitCallNode(InOrderVisitor.java:193)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitCallNode(SourceElementVisitor.java:230)
+	at org.jrubyparser.ast.CallNode.accept(CallNode.java:70)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitLocalAsgnNode(InOrderVisitor.java:456)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitLocalAsgnNode(SourceElementVisitor.java:839)
+	at org.jrubyparser.ast.LocalAsgnNode.accept(LocalAsgnNode.java:62)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitIfNode(InOrderVisitor.java:438)
+	at org.jrubyparser.ast.IfNode.accept(IfNode.java:65)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitDefnNode(InOrderVisitor.java:299)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitDefnNode(SourceElementVisitor.java:346)
+	at org.jrubyparser.ast.DefnNode.accept(DefnNode.java:51)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitClassNode(InOrderVisitor.java:213)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitClassNode(SourceElementVisitor.java:260)
+	at org.jrubyparser.ast.ClassNode.accept(ClassNode.java:68)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitModuleNode(InOrderVisitor.java:517)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitModuleNode(SourceElementVisitor.java:824)
+	at org.jrubyparser.ast.ModuleNode.accept(ModuleNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitRootNode(InOrderVisitor.java:668)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitRootNode(SourceElementVisitor.java:848)
+	at org.jrubyparser.ast.RootNode.accept(RootNode.java:84)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexAST(RubyFileIndexingParticipant.java:73)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexSource(RubyFileIndexingParticipant.java:61)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.index(RubyFileIndexingParticipant.java:37)
+	at com.aptana.index.core.IndexRequestJob.indexFileStores(IndexRequestJob.java:205)
+	at com.aptana.index.core.IndexContainerJob.run(IndexContainerJob.java:109)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 0 2012-07-22 19:43:21.490
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.jruby.exceptions.RaiseException: (Errno::EINVAL) =::
+	at org.jruby.RubyHash.replace(org/jruby/RubyHash.java:1623)
+
+!ENTRY com.aptana.projects 2 0 2012-07-22 21:14:50.394
+!MESSAGE Internal error: Warning: Permanently added 'heroku.com,50.19.85.132' (RSA) to the list of known hosts.
+Permission denied (publickey).
+fatal: The remote end hung up unexpectedly
+!STACK 1
+org.eclipse.core.runtime.CoreException: Warning: Permanently added 'heroku.com,50.19.85.132' (RSA) to the list of known hosts.
+Permission denied (publickey).
+fatal: The remote end hung up unexpectedly
+	at com.aptana.projects.internal.wizards.AbstractNewProjectWizard.doCloneFromGit(AbstractNewProjectWizard.java:845)
+	at com.aptana.ruby.ui.wizards.NewRubyProjectWizard.cloneFromGit(NewRubyProjectWizard.java:145)
+	at com.aptana.projects.internal.wizards.AbstractNewProjectWizard.createNewProject(AbstractNewProjectWizard.java:424)
+	at com.aptana.projects.internal.wizards.AbstractNewProjectWizard$1.run(AbstractNewProjectWizard.java:250)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.aptana.core 4 0 2012-07-22 21:14:50.394
+!MESSAGE Warning: Permanently added 'heroku.com,50.19.85.132' (RSA) to the list of known hosts.
+Permission denied (publickey).
+fatal: The remote end hung up unexpectedly
+
+!ENTRY com.aptana.projects 2 0 2012-07-22 21:15:14.598
+!MESSAGE Internal error: Permission denied (publickey).
+fatal: The remote end hung up unexpectedly
+!STACK 1
+org.eclipse.core.runtime.CoreException: Permission denied (publickey).
+fatal: The remote end hung up unexpectedly
+	at com.aptana.projects.internal.wizards.AbstractNewProjectWizard.doCloneFromGit(AbstractNewProjectWizard.java:845)
+	at com.aptana.ruby.ui.wizards.NewRubyProjectWizard.cloneFromGit(NewRubyProjectWizard.java:145)
+	at com.aptana.projects.internal.wizards.AbstractNewProjectWizard.createNewProject(AbstractNewProjectWizard.java:424)
+	at com.aptana.projects.internal.wizards.AbstractNewProjectWizard$1.run(AbstractNewProjectWizard.java:250)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 com.aptana.core 4 0 2012-07-22 21:15:14.598
+!MESSAGE Permission denied (publickey).
+fatal: The remote end hung up unexpectedly
+
+!ENTRY com.aptana.git.core 4 0 2012-07-22 21:16:45.175
+!MESSAGE (Build 3.2.0.201206251729) [ERROR] com.aptana.git.core/debug Failed to stage files: Failed to acquire write lock for repo. Another process is still writing.
+
+!ENTRY com.aptana.git.core 4 0 2012-07-22 21:16:46.103
+!MESSAGE (Build 3.2.0.201206251729) [ERROR] com.aptana.git.core/debug Failed to stage files: Failed to acquire write lock for repo. Another process is still writing.
+
+!ENTRY com.aptana.git.core 4 0 2012-07-22 21:16:46.519
+!MESSAGE (Build 3.2.0.201206251729) [ERROR] com.aptana.git.core/debug Failed to stage files: Failed to acquire write lock for repo. Another process is still writing.
+
+!ENTRY com.aptana.git.core 4 0 2012-07-22 21:17:14.708
+!MESSAGE (Build 3.2.0.201206251729) [ERROR] com.aptana.git.core/debug Failed to stage files: Failed to acquire write lock for repo. Another process is still writing.
+
+!ENTRY com.aptana.git.core 4 0 2012-07-22 21:17:32.287
+!MESSAGE (Build 3.2.0.201206251729) [ERROR] com.aptana.git.core/debug Failed to stage files: Failed to acquire write lock for repo. Another process is still writing.
+
+!ENTRY com.aptana.git.core 4 0 2012-07-22 21:17:41.451
+!MESSAGE (Build 3.2.0.201206251729) [ERROR] com.aptana.git.core/debug Failed to stage files: Failed to acquire write lock for repo. Another process is still writing.
+
+!ENTRY com.aptana.git.core 4 0 2012-07-22 21:17:58.624
+!MESSAGE (Build 3.2.0.201206251729) [ERROR] com.aptana.git.core/debug Failed to stage files: Failed to acquire write lock for repo. Another process is still writing.
+
+!ENTRY com.aptana.git.core 4 0 2012-07-22 21:18:38.338
+!MESSAGE (Build 3.2.0.201206251729) [ERROR] com.aptana.git.core/debug Failed to stage files: Failed to acquire write lock for repo. Another process is still writing.
+
+!ENTRY com.aptana.git.core 4 0 2012-07-22 21:19:10.996
+!MESSAGE (Build 3.2.0.201206251729) [ERROR] com.aptana.git.core/debug Failed to stage files: Failed to acquire write lock for repo. Another process is still writing.
+
+!ENTRY com.aptana.git.core 4 0 2012-07-22 21:19:23.631
+!MESSAGE (Build 3.2.0.201206251729) [ERROR] com.aptana.git.core/debug Failed to stage files: Failed to acquire write lock for repo. Another process is still writing.
+
+!ENTRY com.aptana.git.core 4 0 2012-07-22 21:19:25.888
+!MESSAGE (Build 3.2.0.201206251729) [ERROR] com.aptana.git.core/debug Failed to stage files: Failed to acquire write lock for repo. Another process is still writing.
+
+!ENTRY com.aptana.git.core 4 0 2012-07-22 21:19:26.576
+!MESSAGE (Build 3.2.0.201206251729) [ERROR] com.aptana.git.core/debug Failed to stage files: Failed to acquire write lock for repo. Another process is still writing.
+
+!ENTRY com.aptana.git.core 4 0 2012-07-22 21:19:47.408
+!MESSAGE (Build 3.2.0.201206251729) [ERROR] com.aptana.git.core/debug Failed to stage files: Failed to acquire write lock for repo. Another process is still writing.
+
+!ENTRY com.aptana.git.core 4 0 2012-07-22 21:20:01.088
+!MESSAGE Failed to acquire write lock on git repository. please ensure any other long-running git processes (i.e. git pull) are completed before retrying.
+
+!ENTRY org.eclipse.core.resources 4 566 2012-07-22 21:24:41.022
+!MESSAGE Workspace was not properly initialized or has already shutdown.
+!SESSION 2012-07-22 21:24:43.147 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.aptana.ruby.core 4 0 2012-07-22 21:25:28.115
+!MESSAGE (eval):1: Use RbConfig instead of obsolete and deprecated Config.
+(eval):1: warning: variable $= is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+G:/______ProgramFiles______/Aptana32/configuration/org.eclipse.osgi/bundles/83/1/.cp/ruby/core_stubber.rb:180:in `eval': Permission denied - G:\Aptana_workspace\.metadata\.plugins\com.aptana.ruby.core\-941821722\4 (Errno::EACCES)
+	from G:/______ProgramFiles______/Aptana32/configuration/org.eclipse.osgi/bundles/83/1/.cp/ruby/core_stubber.rb:180:in `eval'
+	from G:/______ProgramFiles______/Aptana32/configuration/org.eclipse.osgi/bundles/83/1/.cp/ruby/core_stubber.rb:180:in `block (3 levels) in <main>'
+	from G:/______ProgramFiles______/Aptana32/configuration/org.eclipse.osgi/bundles/83/1/.cp/ruby/core_stubber.rb:179:in `each'
+	from G:/______ProgramFiles______/Aptana32/configuration/org.eclipse.osgi/bundles/83/1/.cp/ruby/core_stubber.rb:179:in `block (2 levels) in <main>'
+	from G:/______ProgramFiles______/Aptana32/configuration/org.eclipse.osgi/bundles/83/1/.cp/ruby/core_stubber.rb:178:in `open'
+	from G:/______ProgramFiles______/Aptana32/configuration/org.eclipse.osgi/bundles/83/1/.cp/ruby/core_stubber.rb:178:in `block in <main>'
+	from G:/______ProgramFiles______/Aptana32/configuration/org.eclipse.osgi/bundles/83/1/.cp/ruby/core_stubber.rb:152:in `each'
+	from G:/______ProgramFiles______/Aptana32/configuration/org.eclipse.osgi/bundles/83/1/.cp/ruby/core_stubber.rb:152:in `<main>'
+

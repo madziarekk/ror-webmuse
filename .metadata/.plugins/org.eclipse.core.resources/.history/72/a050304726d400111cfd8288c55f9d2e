@@ -1,0 +1,10 @@
+puts "hello!"
+
+#
+#max z tablicy
+puts [12,47,35].max
+ticket = [12,47,35]
+puts ticket.sort
+
+puts Dir["/*.tx­t"]
+
